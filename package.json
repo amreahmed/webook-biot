@@ -1,0 +1,23 @@
+{
+  "name": "webook-bot",
+  "version": "1.0.0",
+  "private": true,
+  "description": "High-performance Telegram bot for automated Webook account management, ticket tracking, and multi-session synchronization.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "check": "node --check src/index.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "https-proxy-agent": "^9.1.0",
+    "mongoose": "9.9.3",
+    "playwright": "^1.53.1",
+    "socks-proxy-agent": "^10.1.0",
+    "telegraf": "^4.16.3",
+    "xlsx": "^0.18.5"
+  }
+}
